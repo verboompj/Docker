@@ -1,8 +1,8 @@
 `Version: '3'
 
-services:
-  pihole:
-    container_name: pihole
+`services:
+  `pihole:
+    `container_name: pihole
     domainname: docker
     hostname: pihole
     image: pihole/pihole:latest

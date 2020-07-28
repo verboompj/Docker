@@ -23,7 +23,7 @@ This keeps the containers nice and clean and allows for easy updating of any of 
 ### troubleshooting
 Ubuntu might return an error stating that Port 53 is already in use, and therefore cannot start pihole and use port 53 ( DNS). 
 
-Fix this by disabling the `systemd-resolved.service`
+Fix this by disabling the `systemd-resolved.service` on the docker host
 
 Make sure you downloaded the docker images first using docker pull `pihole/pihole` and docker pull `crazymax/cloudflared` and only then disable the service :-) 
 

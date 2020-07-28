@@ -18,3 +18,6 @@ This keeps the containers nice and clean and allows for easy updating of any of 
 ![Screenshot](https://github.com/verboompj/Docker/blob/master/Pictures/1.1.1.1.PNG)
 
 
+Ubuntu might return an error stating that Port 53 is already in use. Fix this by disabling the `systemd-resolved.service`
+Make sure you downloaded the docker images first using docker pull `pihole/pihole` and docker pull `crazymax/cloudflared` and then disable the service :-) 
+

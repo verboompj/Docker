@@ -15,6 +15,6 @@ This keeps the containers nice and clean and allows for easy updating of any of 
 3. Setup your DHCP scope to use the PiHole instance as DNS server ( or forwarder )
 4. verify using https://1.1.1.1/help
 
-![Screenshot](https://raw.githubusercontent.com/verboompj/Docker/master/Pictures/1.1.1.1.png)
+![Screenshot](https://github.com/verboompj/Docker/blob/master/Pictures/1.1.1.1.PNG)
 
 

@@ -21,3 +21,6 @@ This keeps the containers nice and clean and allows for easy updating of any of 
 Ubuntu might return an error stating that Port 53 is already in use. Fix this by disabling the `systemd-resolved.service`
 Make sure you downloaded the docker images first using docker pull `pihole/pihole` and docker pull `crazymax/cloudflared` and then disable the service :-) 
 
+`sudo systemctl stop systemd-resolved.service`
+`sudo systemctl disable systemd-resolved.service`
+

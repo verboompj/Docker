@@ -1,4 +1,4 @@
-ersion: '3'
+`Version: '3'
 
 services:
   pihole:
@@ -43,3 +43,4 @@ services:
 networks:
   dockerlan:
     external: true
+`

@@ -20,7 +20,7 @@ services:
     cap_add:
       - NET_ADMIN
     environment:
-      - ServerIP=172.16.10.200
+      - ServerIP=[Docker Host IP]
       - TZ=Europe/Berlin
       - WEBPASSWORD=[insert Password]
       - DNS1=172.31.0.20#5053

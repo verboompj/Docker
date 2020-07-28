@@ -8,7 +8,7 @@ Pihole is a DNS based Add-Blocking service https://pi-hole.net/
 
 CloudFlare offers DNS over HTTP services https://1.1.1.1/
 
-
+#
 
 The goal is to have Pihole to leverage the Cloudflared service as a DoH ( DNS over HTTP) service. 
 

@@ -43,4 +43,3 @@ services:
 networks:
   dockerlan:
     external: true
-`

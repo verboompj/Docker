@@ -1,5 +1,5 @@
 # Docker
-Docker Configs
+Docker Configs for Add-blocking and DNS over HTTPS at home
 
 ## Goal is to run Pihole and Cloudflared as 2 docker containers
 

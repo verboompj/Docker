@@ -5,11 +5,14 @@ Docker Configs for Add-blocking and DNS over HTTPS at home
 
 
 Pihole is a DNS based Add-Blocking service https://pi-hole.net/ 
+
 CloudFlare offers DNS over HTTP services https://1.1.1.1/
 
 The goal is to have Pihole to leverage the Cloudflared service as a DoH ( DNS over HTTP) service 
 This keeps the containers nice and clean and allows for easy updating of any of the 2 containers.
 
+
+### steps
 1. Create Docker custom network. This allows you to use fixed / Static IP adresses.
 2. run the docker-compose yaml
 3. Setup your DHCP scope to use the PiHole instance as DNS server ( or forwarder )

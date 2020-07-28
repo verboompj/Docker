@@ -29,5 +29,11 @@ Make sure you downloaded the docker images first using docker pull `pihole/pihol
 
 
 `sudo systemctl stop systemd-resolved.service`
+
 `sudo systemctl disable systemd-resolved.service`
+
+re-run your docker compose. 
+
+You might need to kill and delete the previously failed containers first
+
 

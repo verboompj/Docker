@@ -19,7 +19,7 @@ This keeps the containers nice and clean and allows for easy updating of any of 
 
 ### steps
 1. Create Docker custom network. This allows you to use fixed / Static IP adresses.
-2. run the docker-compose yaml
+2. run the docker-compose yaml `docker-compose -f docker-compose.yml up -d ; docker-compose logs -tf`
 3. Setup your DHCP scope to use the PiHole instance as DNS server ( or forwarder )
 4. verify using https://1.1.1.1/help
 

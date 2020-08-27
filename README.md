@@ -10,7 +10,7 @@ CloudFlare offers DNS over HTTP services https://1.1.1.1/
 
 #
 
-The goal is to have Pihole to leverage the Cloudflared service as a DoH ( DNS over HTTP) service. 
+The goal is to have Pihole to leverage the Cloudflared service as a DoH ( DNS over HTTPS) service. 
 
 I want to have 2 seperate containers, each with its own role.
 
